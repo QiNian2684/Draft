@@ -1,0 +1,50 @@
+# Byte编译的Python文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 忽略虚拟环境目录
+venv/
+env/
+.virtualenv/
+
+# 忽略IDE配置文件
+.idea/
+.vscode/
+*.iml
+
+# 日志文件
+*.log
+
+# 操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.swp
+*.swo
+*~
+
+# 忽略Python打包文件
+build/
+dist/
+*.egg-info/
+
+# 忽略测试覆盖率报告
+htmlcov/
+.coverage
+.tox/
+
+# 忽略Jupyter Notebook的检查点
+.ipynb_checkpoints/
+
+# 忽略环境配置文件
+.env
+.env.local
+
+# 忽略pip文件
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 忽略缓存文件
+.cache/
